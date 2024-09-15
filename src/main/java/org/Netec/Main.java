@@ -8,6 +8,6 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
         Domicilio domicilio = new Domicilio("Calle 33", 311,"Guatape", "Antiquia",5445);
 
-        System.out.println(domicilio.toString());
+        System.out.println(domicilio.toString()); //
     }
 }
