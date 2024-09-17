@@ -1,5 +1,7 @@
 package org.Netec;
 
+import java.security.PublicKey;
+
 public class Domicilio {
     private String calle;
     private int numero;

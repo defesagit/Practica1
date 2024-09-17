@@ -1,23 +1,15 @@
 package org.Netec;
 
-
-public abstract class CuentaDeAhorro extends Cuenta{
+public class CuentaDeAhorro extends Cuenta{
     private double tasaInteresMensual;
 
-    public CuentaDeAhorro(int numero, double saldo, double tasaInteresMensual) {
-        super(numero, saldo);
+    public CuentaDeAhorro(int numero, String fechaApertura, double saldo, String fechaCancelacion, double tasaInteresMensual) {
+        super(numero, fechaApertura, saldo, fechaCancelacion);//
         this.tasaInteresMensual = tasaInteresMensual;
     }
 
-    public double getTasaInteresMensual() {
-        return tasaInteresMensual;
-    }
-
-    public void setTasaInteresMensual(double tasaInteresMensual) {
-        this.tasaInteresMensual = tasaInteresMensual;
-    }
+    @Override
     public double calcularIntereses() {
-        // El interés mensual se calcula como saldo * tasaInteresMensual
         return getSaldo() * tasaInteresMensual;
     }
 

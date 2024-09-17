@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db125904-7169-4458-b8fd-05323e9e2d59" name="Changes" comment="Estructura banco">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Netec/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Netec/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726360503364</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Estructura banco">
+      <option name="closed" value="true" />
+      <created>1726360595088</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726360595088</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Estructura banco">
+      <option name="closed" value="true" />
+      <created>1726360664724</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726360664724</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

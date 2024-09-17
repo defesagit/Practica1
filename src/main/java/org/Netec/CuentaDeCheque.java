@@ -1,12 +1,22 @@
 package org.Netec;
 
-public abstract class CuentaDeCheque extends Cuenta{
+public class CuentaDeCheque extends Cuenta{
     private double costoManejoMensual;
 
-    public CuentaDeCheque(int numero, double saldo, double costoManejoMensual) {
-        super(numero, saldo);
+    public CuentaDeCheque(int numero, String fechaApertura, double saldo, String fechaCancelacion, double costoManejoMensual) {
+        super(numero, fechaApertura, saldo, fechaCancelacion); //
         this.costoManejoMensual = costoManejoMensual;
     }
+
+    public double getCostoManejoMensual() {
+        return costoManejoMensual;
+    }
+
+    public void setCostoManejoMensual(double costoManejoMensual) {
+        this.costoManejoMensual = costoManejoMensual;
+    }
+
+
 
     @Override
     public String toString() {
@@ -15,4 +25,8 @@ public abstract class CuentaDeCheque extends Cuenta{
                 '}';
     }
 
+    @Override
+    public double calcularIntereses() {
+        return 0;
+    }
 }
