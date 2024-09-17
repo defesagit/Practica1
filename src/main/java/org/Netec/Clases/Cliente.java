@@ -1,4 +1,4 @@
-package org.Netec;
+package org.Netec.Clases;
 
 import java.util.ArrayList;
 

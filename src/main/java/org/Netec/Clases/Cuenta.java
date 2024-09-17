@@ -1,4 +1,4 @@
-package org.Netec;
+package org.Netec.Clases;
 
 public abstract class Cuenta {
     private int numero;

@@ -1,4 +1,4 @@
-package org.Netec;
+package org.Netec.Clases;
 
 public class CuentaDeAhorro extends Cuenta{
     private double tasaInteresMensual;

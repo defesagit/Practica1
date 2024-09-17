@@ -1,4 +1,4 @@
-package org.Netec;
+package org.Netec.Clases;
 
 public class CuentaDeCheque extends Cuenta{
     private double costoManejoMensual;
