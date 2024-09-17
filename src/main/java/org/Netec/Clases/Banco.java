@@ -1,15 +1,17 @@
 package org.Netec.Clases;
 
+import org.Netec.Interface.ServicioClientes;
+
 import java.util.ArrayList;
 
-public class Banco {
+public class Banco implements ServicioClientes {
     private String nombre;
     private Domicilio domicilio;
     private String rfc;
     private String telefono;
     private ArrayList<Cliente> clientes;
 
-    public Banco(String nombre, Domicilio domicilio, String rfc, String telefono, ArrayList<Cliente> clientes) {
+    public Banco(String nombre, Domicilio domicilio, String rfc, String telefono) {
         this.nombre = nombre;
         this.domicilio = domicilio;
         this.rfc = rfc;
@@ -55,6 +57,31 @@ public class Banco {
 
     public void setClientes(ArrayList<Cliente> clientes) {
         this.clientes = clientes;
+    }
+
+    @Override
+    public boolean agregarCliente(Cliente cliente){
+        return clientes.add(cliente);
+    }
+
+    @Override
+    public boolean eliminarCliente(int numero) {
+        return false;
+    }
+
+    @Override
+    public Cliente consultarCliente(int numero) {
+        return null;
+    }
+
+    @Override
+    public Cliente obtenerClientes() {
+        return null;
+    }
+
+    @Override
+    public Cliente buscarClientePorRFC(String rfc) {
+        return null;
     }
 
     @Override

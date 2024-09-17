@@ -1,8 +1,10 @@
 package org.Netec.Clases;
 
+import org.Netec.Interface.ServicioCuentas;
+
 import java.util.ArrayList;
 
-public class Cliente {
+public class Cliente implements ServicioCuentas {
     private int numero;
     private String nombre;
     private Domicilio domicilio;
@@ -11,13 +13,12 @@ public class Cliente {
     private ArrayList<Cuenta> cuentas;
     private String fechaNacimiento;
 
-    public Cliente(int numero, String nombre, Domicilio domicilio, String rfc, String telefono, ArrayList<Cuenta> cuentas, String fechaNacimiento) {
+    public Cliente(int numero, String nombre, Domicilio domicilio, String rfc, String telefono, String fechaNacimiento) {
         this.numero = numero;
         this.nombre = nombre;
         this.domicilio = domicilio;
         this.rfc = rfc;
         this.telefono = telefono;
-        this.cuentas = cuentas;
         this.fechaNacimiento = fechaNacimiento;
     }
 
@@ -88,5 +89,30 @@ public class Cliente {
                 ", cuentas=" + cuentas +
                 ", fechaNacimiento='" + fechaNacimiento + '\'' +
                 '}';
+    }
+
+    @Override
+    public boolean agregarCuenta(Cuenta cuenta) {
+        return false;
+    }
+
+    @Override
+    public boolean cancelarCuenta(int numero) {
+        return false;
+    }
+
+    @Override
+    public void abonarCuenta(int Numero, double abono) {
+
+    }
+
+    @Override
+    public void retirar(int numero, double retiro) {
+
+    }
+
+    @Override
+    public Cuenta obtenerCuentas() {
+        return null;
     }
 }
