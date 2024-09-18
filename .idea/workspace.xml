@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db125904-7169-4458-b8fd-05323e9e2d59" name="Changes" comment="Actualizacion con Interfaces">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Netec/Clases/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Netec/Clases/Practica2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Netec/Clases/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Netec/Clases/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Netec/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Netec/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,22 +52,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/deybisambonigiron/Documents/Work/EstudioJava/EstudioJava/Practica1/Practica1/src/main/java/org/Netec&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/deybisambonigiron/Documents/Work/EstudioJava/EstudioJava/Practica1/Practica1/src/main/java/org/Netec/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.Practica2.executor": "Run",
+    "Application.test.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/deybisambonigiron/Documents/Work/EstudioJava/EstudioJava/Practica1/Practica1/src/main/java/org/Netec",
+    "onboarding.tips.debug.path": "/Users/deybisambonigiron/Documents/Work/EstudioJava/EstudioJava/Practica1/Practica1/src/main/java/org/Netec/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/org/Netec" />
@@ -146,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726624481431</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Actualizacion con Interfaces">
+      <option name="closed" value="true" />
+      <created>1726625176867</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1726625176867</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -16,7 +16,7 @@ public class Cliente implements ServicioCuentas, Comparable<Cuenta> {
     private ArrayList<Cuenta> cuentas;
     private String fechaNacimiento;
 
-    public Cliente(int numero, String nombre, Domicilio domicilio, String rfc, String telefono, String fechaNacimiento) {
+    public Cliente(ClienteBuilder builder) {
         this.numero = numero;
         this.nombre = nombre;
         this.domicilio = domicilio;
@@ -122,5 +122,53 @@ public class Cliente implements ServicioCuentas, Comparable<Cuenta> {
     @Override
     public int compareTo(Cuenta obj) {
         return 0;
+    }
+
+    // Clase anidada estática Builder
+    public static class ClienteBuilder {
+        private int numero;
+        private String nombre;
+        private Domicilio domicilio;
+        private String rfc;
+        private String telefono;
+        private ArrayList<Cuenta> cuentas = new ArrayList<>();
+        private String fechaNacimiento;
+
+        // Constructor del Builder con los atributos obligatorios
+        public ClienteBuilder(int numero, String nombre) {
+            this.numero = numero;
+            this.nombre = nombre;
+        }
+
+        // Métodos para agregar los valores opcionales y retornando el mismo Builder (fluido)
+        public ClienteBuilder conDomicilio(Domicilio domicilio) {
+            this.domicilio = domicilio;
+            return this;
+        }
+
+        public ClienteBuilder conRfc(String rfc) {
+            this.rfc = rfc;
+            return this;
+        }
+
+        public ClienteBuilder conTelefono(String telefono) {
+            this.telefono = telefono;
+            return this;
+        }
+
+        public ClienteBuilder conCuentas(ArrayList<Cuenta> cuentas) {
+            this.cuentas = cuentas;
+            return this;
+        }
+
+        public ClienteBuilder conFechaNacimiento(String fechaNacimiento) {
+            this.fechaNacimiento = fechaNacimiento;
+            return this;
+        }
+
+        // Método para construir el objeto Cliente
+        public Cliente build() {
+            return new Cliente(this);
+        }
     }
 }
