@@ -1,6 +1,8 @@
 package org.Netec.Clases;
 
-public abstract class Cuenta {
+import org.Netec.Interface.Comparable;
+
+public abstract class Cuenta implements Comparable<Cuenta> {
     private int numero;
     private String fechaApertura;
     private double saldo; //
@@ -57,5 +59,9 @@ public abstract class Cuenta {
 
     public abstract double calcularIntereses();
 
+    @Override
+    public int compareTo(Cuenta obj) {
+        return 0;
+    }
 }
 

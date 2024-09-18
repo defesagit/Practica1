@@ -1,10 +1,13 @@
 package org.Netec.Clases;
 
+import org.Netec.Interface.Comparable;
 import org.Netec.Interface.ServicioCuentas;
 
 import java.util.ArrayList;
 
-public class Cliente implements ServicioCuentas {
+public class Cliente implements ServicioCuentas, Comparable<Cuenta> {
+
+
     private int numero;
     private String nombre;
     private Domicilio domicilio;
@@ -114,5 +117,10 @@ public class Cliente implements ServicioCuentas {
     @Override
     public Cuenta obtenerCuentas() {
         return null;
+    }
+
+    @Override
+    public int compareTo(Cuenta obj) {
+        return 0;
     }
 }

@@ -2,6 +2,8 @@ package org.Netec;
 
 import org.Netec.Clases.Domicilio;
 
+import java.util.List;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -11,5 +13,7 @@ public class Main {
         Domicilio domicilio = new Domicilio("Calle 33", 311,"Guatape", "Antiquia",5445);
 
         System.out.println(domicilio.toString()); //
-    }
+
+
+
 }
