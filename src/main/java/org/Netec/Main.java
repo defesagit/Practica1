@@ -10,10 +10,10 @@ public class Main {
     public static void main(String[] args) {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
-        Domicilio domicilio = new Domicilio("Calle 33", 311,"Guatape", "Antiquia",5445);
+        Domicilio domicilio = new Domicilio("Calle 33", 311, "Guatape", "Antiquia", 5445);
 
         System.out.println(domicilio.toString()); //
 
-
+    }
 
 }
