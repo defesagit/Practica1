@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db125904-7169-4458-b8fd-05323e9e2d59" name="Changes" comment="Actualizacion con Interfaces">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Netec/Clases/Practica2.java" afterDir="false" />
+    <list default="true" id="db125904-7169-4458-b8fd-05323e9e2d59" name="Changes" comment="Actualizacion con patrón Builder">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Netec/Clases/Lambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Netec/Interface/metodo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Netec/Clases/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Netec/Clases/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Netec/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Netec/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726625176867</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Actualizacion con patrón Builder">
+      <option name="closed" value="true" />
+      <created>1726627827323</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1726627827323</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,6 +184,7 @@
     <MESSAGE value="Estructura banco" />
     <MESSAGE value="Actualizacion Estructura banco" />
     <MESSAGE value="Actualizacion con Interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion con Interfaces" />
+    <MESSAGE value="Actualizacion con patrón Builder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion con patrón Builder" />
   </component>
 </project>
