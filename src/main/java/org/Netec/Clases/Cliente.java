@@ -170,5 +170,18 @@ public class Cliente implements ServicioCuentas, Comparable<Cuenta> {
         public Cliente build() {
             return new Cliente(this);
         }
+
+        @Override
+        public String toString() {
+            return "ClienteBuilder{" +
+                    "numero=" + numero +
+                    ", nombre='" + nombre + '\'' +
+                    ", domicilio=" + domicilio +
+                    ", rfc='" + rfc + '\'' +
+                    ", telefono='" + telefono + '\'' +
+                    ", cuentas=" + cuentas +
+                    ", fechaNacimiento='" + fechaNacimiento + '\'' +
+                    '}';
+        }
     }
 }
