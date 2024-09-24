@@ -84,7 +84,7 @@ public class Main {
 
         listaclientes.stream()
                 .filter(t-> t.getNombre().startsWith("D"))
-                .forEach(t-> System.out.println(t));
+                .forEach(t-> System.out.println(t));//Stream
 
     }
 
