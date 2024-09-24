@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db125904-7169-4458-b8fd-05323e9e2d59" name="Changes" comment="Actualizacion con patrón Builder">
+    <list default="true" id="db125904-7169-4458-b8fd-05323e9e2d59" name="Changes" comment="Actualizdsamboni@bancolombia.com.coacion con Stream">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Netec/Clases/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Netec/Clases/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Netec/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Netec/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +181,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726767177020</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Actualizacion con patrón Builder">
+      <option name="closed" value="true" />
+      <created>1727192249029</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1727192249029</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Actualizdsamboni@bancolombia.com.coacion con Stream">
+      <option name="closed" value="true" />
+      <created>1727192558859</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1727192558859</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,6 +216,7 @@
     <MESSAGE value="Actualizacion Estructura banco" />
     <MESSAGE value="Actualizacion con Interfaces" />
     <MESSAGE value="Actualizacion con patrón Builder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion con patrón Builder" />
+    <MESSAGE value="Actualizdsamboni@bancolombia.com.coacion con Stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualizdsamboni@bancolombia.com.coacion con Stream" />
   </component>
 </project>
